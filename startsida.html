@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="./js/script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Vad vill du fira?</h1>
+    
+    </header>
+    <div>
+    <label for="">Skriv in det du vill fira</label>
+    <input type="text" id="userInput" class="skaFiras" placeholder="Fonkey Monkey Friday">
+    
+    <div class="slidecontainer">
+        <label for="range">Hur många fyverkerier vill du ha? Numret är chansen att ett fyverkery ska ritas varje gång functionen körs</label>
+        <input type="range" min="0" max="100" value="50" class="slider" id="value" oninput="showVal()">
+        <span class="antalFyv"></span>
+      </div>
+      <button onclick="buttonPressed()">Submit</button>
+    </div>
+</body>
+</html>

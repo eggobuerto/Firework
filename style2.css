@@ -1,0 +1,24 @@
+header {
+  background-color: black;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 40em;
+}
+body {
+  margin: 0;
+}
+
+a {
+  margin-top: 2em;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+audio {
+  padding-top: 1em;
+}
